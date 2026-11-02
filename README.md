@@ -1,11 +1,11 @@
-# segmodel_jd283
+# moe_route_imbalance_pattern_locate
 
 **用规则在图像分割研究员·MoE 路由的负载不均里定位可疑位置。**
 
-`segmodel_jd283` —— 用一组明示的正则规则扫描输入，报告图像分割研究员·MoE 路由的负载不均相关的命中行与片段
+`moe_route_imbalance_pattern_locate` —— 用一组明示的正则规则扫描输入，报告图像分割研究员·MoE 路由的负载不均相关的命中行与片段
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`segmodel_jd283.py` 拷走就能用
+- 单文件，`moe_route_imbalance_pattern_locate.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install dry3comb-segmodel_jd283
+pip install dry3comb-moe_route_imbalance_pattern_locate
 ```
 
 装完直接用命令名调用：
 
 ```bash
-segmodel_jd283 --help
+moe_route_imbalance_pattern_locate --help
 ```
 
-也可以不用安装，直接把 `segmodel_jd283.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `moe_route_imbalance_pattern_locate.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ segmodel_jd283 --help
 ## 用法
 
 ```bash
-python segmodel_jd283.py --file input.txt
-python segmodel_jd283.py --text "示例内容"
-python segmodel_jd283.py --file input.txt --json
+python moe_route_imbalance_pattern_locate.py --file input.txt
+python moe_route_imbalance_pattern_locate.py --text "示例内容"
+python moe_route_imbalance_pattern_locate.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python segmodel_jd283.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_segmodel_jd283.py
+python test_moe_route_imbalance_pattern_locate.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_segmodel_jd283.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/dry3comb/segmodel_jd283>
+- GitHub 仓库：<https://github.com/dry3comb/moe_route_imbalance_pattern_locate>
 
 ---
 
@@ -79,7 +79,7 @@ python test_segmodel_jd283.py
 dry3comb 做图像分割研究员·MoE 路由的负载不均相关的问题，方向对标月之暗面的架构图像分割研究员岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://dry3comb.github.io>
-- 仓库：<https://github.com/dry3comb/segmodel_jd283>
+- 仓库：<https://github.com/dry3comb/moe_route_imbalance_pattern_locate>
 
 ## 许可
 

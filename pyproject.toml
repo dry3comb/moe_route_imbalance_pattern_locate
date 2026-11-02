@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "dry3comb-segmodel_jd283"
+name = "dry3comb-moe_route_imbalance_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告图像分割研究员·MoE 路由的负载不均相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://dry3comb.github.io"
-Repository = "https://github.com/dry3comb/segmodel_jd283"
-Issues = "https://github.com/dry3comb/segmodel_jd283/issues"
+Repository = "https://github.com/dry3comb/moe_route_imbalance_pattern_locate"
+Issues = "https://github.com/dry3comb/moe_route_imbalance_pattern_locate/issues"
 
 [project.scripts]
-segmodel_jd283 = "segmodel_jd283:main"
+moe_route_imbalance_pattern_locate = "moe_route_imbalance_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["segmodel_jd283"]
+py-modules = ["moe_route_imbalance_pattern_locate"]
